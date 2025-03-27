@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <tittle>설문조사</tittle>
+    </head>
+    <body>
+        <h3>설문조사</h3> <tr>
+        <h6>소프트웨어 기술에 대한 의견을 듣습니다. 많은 참여 부탁드립니다.</h6>
+        <form>
+            <label>
+                <input type="radio" name="grade" value="1">
+                1학년
+            </label>
+            <label>
+                <input type="radio" name="grade" value="2">
+                2학년
+            </label>
+            <label>
+                <input type="radio" name="grade" value="3">
+                3학년
+            </label>
+            <label>
+                <input type="radio" name="grade" value="4">
+                4학년
+            </label>
+        </form>
+        <form>
+            <label>
+                <input type="radio" name="gender" value="5">
+                남성
+            </label>
+            <label>
+                <input type="radio" name="gender" value="6">
+                여성
+            </label>
+        </form>
+        <form>
+            <label>
+                관심분야: <input type="text" list="software">
+                <datalist id="software">
+                    <option value="프로그래밍">
+                    <option value="컴퓨터과학">
+                </datalist>
+            </label>
+        </form>
+        <form>
+            <label> 진로:
+            개발<input type="checkbox" value="7">
+            기획<input type="checkbox" value="8">
+            영업<input type="checkbox" value="9">
+            창업<input type="checkbox" value="10">
+            </label>
+        </form>
+        <form>
+            남기고 싶은 말
+            <textarea cols="20" rows="5">
+            </textarea>
+        </form>
+    </body>
+</html>
